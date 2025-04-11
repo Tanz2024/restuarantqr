@@ -1,0 +1,53 @@
+/* pages/adminIndex.module.css */
+.dashboard {
+    padding: 2rem;
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .error {
+    color: #d9534f;
+    margin-bottom: 1rem;
+  }
+  
+  .section {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #0070f3;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listItem {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .listItem:last-child {
+    border-bottom: none;
+  }
+  
+  .noData {
+    color: #999;
+    font-style: italic;
+  }
+  
